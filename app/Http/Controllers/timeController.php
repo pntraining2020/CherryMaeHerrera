@@ -9,9 +9,9 @@ class timeController extends Controller
     public function store(Request $request)
     {
         $student = new Name([
-            'name' => $request('selected'),
-            'clock_in' => $request('clock_in'),
-            'clock_out' => $request('clock_out'),
+            'name' => $request->get('selected'),
+            'clock_in' => $request->get('clock_in'),
+            'clock_out' => $request->get('clock_out'),
         ]);
         $student->save();
 
