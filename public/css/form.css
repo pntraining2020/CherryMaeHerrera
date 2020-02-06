@@ -1,0 +1,102 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdVOQxw6zPSsunlQjwGIr7JabJ_XcqZSU1Zo4l5B1bDYa6yLS');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .btn-primary.custom-btn {
+	background-color: orange;
+    border-color:orange;
+    color: white;
+}
+
+   head,body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdVOQxw6zPSsunlQjwGIr7JabJ_XcqZSU1Zo4l5B1bDYa6yLS');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    margin-top:0%;
+    }
+
+    .btn-primary {
+        color: black;
+        background-color: yellow;
+        border-color: yellow;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .btn-primary:hover {
+        color: black;
+        background-color: yellow;
+        border-color: yellow;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .btn-danger {
+        color: black;
+        background-color: yellow;
+        border-color: yellow;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .btn-danger:hover {
+        color: black;
+        background-color: yellow;
+        border-color: yellow;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    #div1 {
+        /*background-color: red;*/
+        transform: translateY(33%);
+      }
+      
+      #time {
+        font-family: 'Nova Mono', monospace;
+        font-size: 4vw;
+        text-align: center;
+        text-shadow: 0px 0px 20px yellow;
+      }
+      
+      #date {
+        font-family: 'Eczar', serif;
+        font-size: 3vmin;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-left: 20%;
+    }
+
+    .custom-select {
+        display: inline-block;
+        width: 29%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem 1.75rem .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        vertical-align: middle;
+        background: #fff;
+        margin-left: 25%;
+        
+    }
+      
